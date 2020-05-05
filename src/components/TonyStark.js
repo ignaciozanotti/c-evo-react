@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import WithIronSuit from './withIronSuit'
+import withIronSuit from './withIronSuit'
 
 export class TonyStark extends Component {
 
@@ -17,4 +17,4 @@ export class TonyStark extends Component {
     }
 }
 
-export default WithIronSuit(TonyStark)
+export default withIronSuit(TonyStark)
