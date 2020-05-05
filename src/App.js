@@ -1,6 +1,6 @@
 import React from 'react';
-import TonyStark from './components/TonyStark';
-import ClickCounter from './components/ClickCounter';
+import TonyStark from './components/HOC/TonyStark';
+import ClickCounter from './components/HOC/ClickCounter';
 
 function App() {
   return (
